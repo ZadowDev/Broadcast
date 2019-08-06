@@ -1,16 +1,31 @@
 {
-  "name": "broadcast",
+"name": "discord.js-heroku",
   "version": "1.0.0",
-  "description": "Broadcast Open source bot, by @! RG | YouseeeF .#9060",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
   "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "dependencies": {
-    "discord.js": "^11.3.2",
-    "chalk": "^2.4.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
   },
-  "engines": {
-    "node": "10.x"
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "synicalsyntax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
+  },
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
   }
 }
